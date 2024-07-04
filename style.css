@@ -1,6 +1,13 @@
 body {
     background-color: #EDEDED;
 }
+
+header {
+       position: fixed;
+       width: 100%;
+       z-index: 2;
+}
+
 .about {
     font-size: 1.5rem;
 }
@@ -15,14 +22,72 @@ body {
     font-size: 3.2rem;
 }
 
-.cut {
-    margin: 0px;
-}
-
 .titleAndabout{
     align-self: center;
     padding-left: 50px;
     padding-right: 0px;
 }
+
+hr {
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    height: 5px;
+    margin: 0px;
+}
+
+.pics {
+    width: 100%;
+}
+
+
+
+.carousel-inner {
+    border-radius: 5%;
+}
+
+.vol-headline {
+    text-align: left;
+    padding-left: 150px ;
+    margin-bottom: 100px;
+    width: 624px;
+}
+
+.pic-title{
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 700px;
+    padding: 0px;
+}
+
+.pic-title-div{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 700px;
+    padding-left: 18.4%;
+}
+
+.pic-content{
+    text-align: justify;
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.pic-content-div{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-left: 17.4%;
+    padding-right: 17.4%;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
 
 
