@@ -48,7 +48,7 @@ hr {
 
 .vol-headline {
     text-align: left;
-    padding-left: 150px ;
+    padding-left: 30px ;
     margin-bottom: 100px;
     width: 624px;
 }
@@ -83,6 +83,18 @@ hr {
     padding-left: 17.4%;
     padding-right: 17.4%;
     margin-bottom: 3rem;
+}
+
+.linepattern2{
+    height: 100%;
+    width: 100%;
+}
+
+.box2{
+    padding: 0%;
+    margin: 0px;
+    display: flex;
+    
 }
 
 
