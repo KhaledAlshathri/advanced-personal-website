@@ -5,7 +5,7 @@ body {
 header {
        position: fixed;
        width: 100%;
-       z-index: 2;
+       z-index: 100;
 }
 
 .about {
@@ -99,6 +99,10 @@ hr {
 
 .box {
     margin-bottom: 100px;
+}
+
+footer {
+    height: 75px;
 }
 
 
