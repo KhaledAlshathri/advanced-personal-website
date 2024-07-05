@@ -105,6 +105,11 @@ footer {
     height: 75px;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon  {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
 
 
 
